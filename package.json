@@ -1,6 +1,7 @@
 {
-  "name": "javascript-terminal",
-  "version": "1.1.1",
+  "name": "js-terminal",
+  "version": "0.1.0",
+  "private": true,
   "description": "Emulate a terminal environment in JavaScript",
   "main": "lib/terminal.js",
   "unpkg": "lib/terminal.min.js",
@@ -11,26 +12,6 @@
     "test:coverage": "nyc yarn run test",
     "cli": "node demo-cli",
     "artifact:test-coverage": "nyc --reporter=html yarn run test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rohanchandra/javascript-terminal.git"
-  },
-  "keywords": [
-    "terminal",
-    "emulation"
-  ],
-  "author": "Rohan Chandra",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rohanchandra/javascript-terminal/issues"
-  },
-  "homepage": "https://github.com/rohanchandra/javascript-terminal",
-  "nyc": {
-    "exclude": [
-      "test",
-      "lib"
-    ]
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",

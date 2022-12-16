@@ -15,7 +15,7 @@ export const emulatorErrorType = {
  */
 export const makeError = (emulatorErrorType, message = '') => {
   return {
-    source: 'emulator',
+    source: 'AI',
     type: emulatorErrorType,
     message
   };
